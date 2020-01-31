@@ -14,14 +14,14 @@
       #icon {
         width: 100px;
         height: 100px;
-        animation: rotate 3s infinite linear;
+        animation: move 1s infinite linear;
       }
-      @keyframes rotate {
+      @keyframes move {
         0% {
-          transform: rotate(0deg);
+          transform: translate(0);
         }
         100% {
-          transform: rotate(360deg);
+          transform: translateY(10px);
         }
       }
     </style>
